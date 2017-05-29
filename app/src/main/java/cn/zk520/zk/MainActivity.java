@@ -29,15 +29,6 @@ public class MainActivity extends AppCompatActivity {
         errorHtml = "<html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html><html><html><body><h1 style=\"width:100%;text-align:center;\">No network</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">please try again</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html><html><body><h1 style=\"width:100%;text-align:center;\">.</h1></body></html>";
 
 
-//        初始化Bmob
-        Bmob.initialize(this, "898a506c76d5b8b8f376d933ff798533");
-//        应用自动更新
-        BmobUpdateAgent.initAppVersion();
-        BmobUpdateAgent.update(this);
-        BmobUpdateAgent.setUpdateOnlyWifi(false);
-//        应用自动更新
-
-
 
 
         mWebView= (WebView) findViewById(R.id.webview);
